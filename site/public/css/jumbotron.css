@@ -1,0 +1,49 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+/*header {*/
+    /*background-color: #c9c9c9;*/
+    /*background-image: url("../assets/salmon_2.svg");*/
+/*}*/
+body {
+  padding-top: 3.5rem;
+  /*background: url('../assets/headbg.png');*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100% 100%;*/
+}
+
+.display-3 {
+	background-color: transparent;
+}
+
+h1 {
+	color:#FFFAFA;
+}
+
+h3 {
+  color:#FFFAFA;  
+}
+
+h2 {
+	color:#FFFAFA;
+}
+
+table.table1 {
+   border: 1px solid #888888;
+   border-collapse: collapse;
+   font-family: Arial,Helvetica,sans-serif;
+   margin-top: 10px;
+   width: 100%;
+}
+table.table1 th {
+   background-color: #CCCCCC;
+   border: 1px solid #888888;
+   padding: 5px 15px 5px 5px;
+   text-align: center;
+   vertical-align: baseline;
+}
+table.table1 td {
+   background-color: #EFEFEF;
+   border: 1px solid #AAAAAA;
+   padding: 5px 15px 5px 5px;
+   vertical-align: text-top;
+}

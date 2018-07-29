@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+ 
+    <title>Come, and eat</title>
+    <link rel="stylesheet" href="css/signupstyle.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="css/font-awesome.css" /> <!-- Font-Awesome-Icons-CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/jumbotron.css" rel="stylesheet" type="text/css"/>
+
+  </head>
+
+  <body>
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="container">
+          <h1 class="display-3">Search in our website to find food!</h1>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Select flavour</h2>
+            <div class="sub-main-w3">	
+            <form id = "flavour" action="/flavour" method="post">
+				<!-- signup/signupform -->
+				<div class="field">
+					<i class="fa fa-beer"></i>
+					<input placeholder="Input flavour you want, eg:  cheese/sweetandsour" id="flavour" name="flavour" type="text" required="" />
+				</div>
+				<input type="submit" value="Search" />
+			</form>
+			</div>
+
+
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details </a></p> -->
+          </div>
+          <div class="col-md-4">
+            <h2>Select accommodation</h2>
+			<div class="sub-main-w3">	
+			<form id = "postcode" action="/postcode" method="post">
+				<!-- signup/signupform -->
+				<div class="field">
+					<i class="fa fa-building-o"></i>
+					<input placeholder="Input postcode you want, eg:  BS1 5DH/BS8 1JR/BS8 2AD/BS1 5UL" id="postcode" name="postcode" type="text" required="" />
+				</div>
+				<input type="submit" value="Search" />
+			</form>
+			</div>
+          </div>
+          <div class="col-md-4">
+            <h2>Select friends</h2>
+            <div class="sub-main-w3">	
+            <form id = "friend" action="/friend" method="post">
+				<!-- signup/signupform -->
+				<div class="field">
+					<i class="fa fa-user"></i>
+					<input placeholder="Input your friend's name, eg: Alice/Ben" id="friend" name="friend" type="text" required="" />
+				</div>
+				<input type="submit" value="Search" />
+			</form>
+			</div>
+          </div>
+        </div>
+
+        <hr/>
+
+      </div> <!-- /container -->
+
+    </main>
+  </body>
+</html>
